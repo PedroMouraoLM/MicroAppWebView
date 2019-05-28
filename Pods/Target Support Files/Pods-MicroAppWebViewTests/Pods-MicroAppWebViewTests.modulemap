@@ -1,0 +1,6 @@
+framework module Pods_MicroAppWebViewTests {
+  umbrella header "Pods-MicroAppWebViewTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

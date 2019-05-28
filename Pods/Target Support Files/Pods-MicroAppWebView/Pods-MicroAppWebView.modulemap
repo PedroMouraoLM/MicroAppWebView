@@ -1,0 +1,6 @@
+framework module Pods_MicroAppWebView {
+  umbrella header "Pods-MicroAppWebView-umbrella.h"
+
+  export *
+  module * { export * }
+}

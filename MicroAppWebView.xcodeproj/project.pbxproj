@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24EF75B50AF37225DCA86041 /* Pods_MicroAppWebView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43059A88FE6B7C4FF73059B8 /* Pods_MicroAppWebView.framework */; };
+		4D7E93F3A20245F87E9EB4D4 /* Pods_MicroAppWebViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC562B3D8FAD7A6F9E200A5C /* Pods_MicroAppWebViewTests.framework */; };
 		710FD621229CE4C10031DF55 /* MicroAppWebView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710FD617229CE4C10031DF55 /* MicroAppWebView.framework */; };
 		710FD626229CE4C10031DF55 /* MicroAppWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710FD625229CE4C10031DF55 /* MicroAppWebViewTests.swift */; };
 		710FD628229CE4C10031DF55 /* MicroAppWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 710FD61A229CE4C10031DF55 /* MicroAppWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,6 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43059A88FE6B7C4FF73059B8 /* Pods_MicroAppWebView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MicroAppWebView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56EA69B7F061E8DCFEA9D1BB /* Pods-MicroAppWebView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroAppWebView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MicroAppWebView/Pods-MicroAppWebView.debug.xcconfig"; sourceTree = "<group>"; };
 		710FD617229CE4C10031DF55 /* MicroAppWebView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MicroAppWebView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		710FD61A229CE4C10031DF55 /* MicroAppWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MicroAppWebView.h; sourceTree = "<group>"; };
 		710FD61B229CE4C10031DF55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,6 +35,10 @@
 		710FD625229CE4C10031DF55 /* MicroAppWebViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroAppWebViewTests.swift; sourceTree = "<group>"; };
 		710FD627229CE4C10031DF55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		710FD631229CE78F0031DF55 /* SLWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLWebView.swift; sourceTree = "<group>"; };
+		77F02DC2E0BDCE2F50456165 /* Pods-MicroAppWebViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroAppWebViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MicroAppWebViewTests/Pods-MicroAppWebViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		7F28E58A6D87C5899E4896F1 /* Pods-MicroAppWebView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroAppWebView.release.xcconfig"; path = "Pods/Target Support Files/Pods-MicroAppWebView/Pods-MicroAppWebView.release.xcconfig"; sourceTree = "<group>"; };
+		CC562B3D8FAD7A6F9E200A5C /* Pods_MicroAppWebViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MicroAppWebViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A93D5F6A3567034E45B5EF /* Pods-MicroAppWebViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroAppWebViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MicroAppWebViewTests/Pods-MicroAppWebViewTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24EF75B50AF37225DCA86041 /* Pods_MicroAppWebView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				710FD621229CE4C10031DF55 /* MicroAppWebView.framework in Frameworks */,
+				4D7E93F3A20245F87E9EB4D4 /* Pods_MicroAppWebViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +68,8 @@
 				710FD619229CE4C10031DF55 /* MicroAppWebView */,
 				710FD624229CE4C10031DF55 /* MicroAppWebViewTests */,
 				710FD618229CE4C10031DF55 /* Products */,
+				C507E3DEE3B88B372F71256B /* Pods */,
+				98FBB5C66FC714EA3693C05F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +101,26 @@
 			path = MicroAppWebViewTests;
 			sourceTree = "<group>";
 		};
+		98FBB5C66FC714EA3693C05F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43059A88FE6B7C4FF73059B8 /* Pods_MicroAppWebView.framework */,
+				CC562B3D8FAD7A6F9E200A5C /* Pods_MicroAppWebViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C507E3DEE3B88B372F71256B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56EA69B7F061E8DCFEA9D1BB /* Pods-MicroAppWebView.debug.xcconfig */,
+				7F28E58A6D87C5899E4896F1 /* Pods-MicroAppWebView.release.xcconfig */,
+				D2A93D5F6A3567034E45B5EF /* Pods-MicroAppWebViewTests.debug.xcconfig */,
+				77F02DC2E0BDCE2F50456165 /* Pods-MicroAppWebViewTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -107,6 +139,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 710FD62B229CE4C10031DF55 /* Build configuration list for PBXNativeTarget "MicroAppWebView" */;
 			buildPhases = (
+				86CAC04CAEDA8A648BAC8B3F /* [CP] Check Pods Manifest.lock */,
 				710FD612229CE4C10031DF55 /* Headers */,
 				710FD613229CE4C10031DF55 /* Sources */,
 				710FD614229CE4C10031DF55 /* Frameworks */,
@@ -125,6 +158,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 710FD62E229CE4C10031DF55 /* Build configuration list for PBXNativeTarget "MicroAppWebViewTests" */;
 			buildPhases = (
+				13F434BDEE17AD6BA1C3115A /* [CP] Check Pods Manifest.lock */,
 				710FD61C229CE4C10031DF55 /* Sources */,
 				710FD61D229CE4C10031DF55 /* Frameworks */,
 				710FD61E229CE4C10031DF55 /* Resources */,
@@ -192,6 +226,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13F434BDEE17AD6BA1C3115A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MicroAppWebViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86CAC04CAEDA8A648BAC8B3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MicroAppWebView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		710FD613229CE4C10031DF55 /* Sources */ = {
@@ -345,6 +426,7 @@
 		};
 		710FD62C229CE4C10031DF55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56EA69B7F061E8DCFEA9D1BB /* Pods-MicroAppWebView.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -373,6 +455,7 @@
 		};
 		710FD62D229CE4C10031DF55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F28E58A6D87C5899E4896F1 /* Pods-MicroAppWebView.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -400,6 +483,7 @@
 		};
 		710FD62F229CE4C10031DF55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2A93D5F6A3567034E45B5EF /* Pods-MicroAppWebViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -419,6 +503,7 @@
 		};
 		710FD630229CE4C10031DF55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77F02DC2E0BDCE2F50456165 /* Pods-MicroAppWebViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
