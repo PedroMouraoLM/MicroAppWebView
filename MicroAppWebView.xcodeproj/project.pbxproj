@@ -10,6 +10,7 @@
 		710FD621229CE4C10031DF55 /* MicroAppWebView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710FD617229CE4C10031DF55 /* MicroAppWebView.framework */; };
 		710FD626229CE4C10031DF55 /* MicroAppWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710FD625229CE4C10031DF55 /* MicroAppWebViewTests.swift */; };
 		710FD628229CE4C10031DF55 /* MicroAppWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 710FD61A229CE4C10031DF55 /* MicroAppWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710FD632229CE78F0031DF55 /* SLWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710FD631229CE78F0031DF55 /* SLWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		710FD620229CE4C10031DF55 /* MicroAppWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicroAppWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		710FD625229CE4C10031DF55 /* MicroAppWebViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroAppWebViewTests.swift; sourceTree = "<group>"; };
 		710FD627229CE4C10031DF55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		710FD631229CE78F0031DF55 /* SLWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				710FD61A229CE4C10031DF55 /* MicroAppWebView.h */,
+				710FD631229CE78F0031DF55 /* SLWebView.swift */,
 				710FD61B229CE4C10031DF55 /* Info.plist */,
 			);
 			path = MicroAppWebView;
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					710FD616229CE4C10031DF55 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					710FD61F229CE4C10031DF55 = {
 						CreatedOnToolsVersion = 10.1;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				710FD632229CE78F0031DF55 /* SLWebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +346,7 @@
 		710FD62C229CE4C10031DF55 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +364,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.soluevo.MicroAppWebView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +373,7 @@
 		710FD62D229CE4C10031DF55 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -391,6 +399,7 @@
 		710FD62F229CE4C10031DF55 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NX879228WR;
 				INFOPLIST_FILE = MicroAppWebViewTests/Info.plist;
@@ -409,6 +418,7 @@
 		710FD630229CE4C10031DF55 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NX879228WR;
 				INFOPLIST_FILE = MicroAppWebViewTests/Info.plist;
