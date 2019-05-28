@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SLWebView"
-  s.version          = "1.0"
+  s.version          = "0.1.0"
   s.summary          = "SLWebView is a delightful, lightweight Swift wrapper around UIWebView that lets you harness the power of Closures and Chaining. "
 
   s.description      = <<-DESC
@@ -8,13 +8,13 @@ Pod::Spec.new do |s|
                       And of course - Get rid of those pesky, awful delegates ;-) 
                        DESC
 
-  s.homepage         = "https://github.com/freak4pc/SLWebView"
+  s.homepage         = "https://github.com/PedroMouraoLM/MicroAppWebView"
   s.license          = 'MIT'
   s.author           = { "freak4pc" => "pedro.mourao@soluevo.com.br" }
   s.source           = { :git => "https://github.com/PedroMouraoLM/MicroAppWebView.git", :tag => s.version }
   s.social_media_url = ''
 
-  s.platform         = :ios, '8.0'
+  s.platform         = :ios, '9.0'
   s.requires_arc     = true
 
   s.source_files     = '*.swift'
